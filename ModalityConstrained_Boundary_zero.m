@@ -43,7 +43,7 @@ while (iter <=length(KK) )
     lb=[-Inf*ones(1,m_temp) 10^(-3)*ones(1,2*(M-1))];
 if (M>1)
  
-    ub=[Inf*ones(1,m_temp) 0.1 10*sqrt(n)*ones(1,2*M-3)];
+    ub=[Inf*ones(1,m_temp) 0.99 10*sqrt(n)*ones(1,2*M-3)];
 else
     ub=Inf*ones(1,m_temp);
 end
