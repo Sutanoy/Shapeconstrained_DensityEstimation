@@ -32,7 +32,7 @@ start(1,:)=[zeros(1,2) repmat([0.5 1],1,(M-1))];
 iter=2;
 ll(1)=100;ll(2)=0;
 Phiopt=Phi;
-B1=-0.5*ones(2*M -3,1);
+B1=-0.0005*ones(2*M -3,1);
 
 while (iter <=length(KK) ) 
     p1=Phi(1:KK(iter),:);
