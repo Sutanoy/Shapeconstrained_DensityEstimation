@@ -32,7 +32,7 @@ options = optimset('MaxFunEvals',60000,'MaxIter',90000,'Display','off');
 KK=0:1:K;
 Z=zeros(1,1);
 start(1,:)=[zeros(1,2) repmat([0.5 1],1,(M-1)) 0.5 0.5];
-r=2;
+iter=2;
 ll(1)=100;ll(2)=0;
 Phiopt=Phi;
 
