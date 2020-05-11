@@ -22,7 +22,7 @@ X=matrix(0,nrow=1,ncol=n);
 
 u=runif(n,0,1);
 for (i in 1:n){
-  X[i]=t[min(which(Ft>u[i]))]# SIMULATED DATA
+  X[i]=t[min(which(Ft>u[i]))]# SIMULATED DATA,SUPPORT IS UNIT INTERVAL. Can be generalized to any unknown support by scaling to unit interval.
 }
 #######################################
 
